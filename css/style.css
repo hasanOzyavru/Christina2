@@ -1,0 +1,36 @@
+/* We want the navbar to stay fixed in its position in this example
+Using starter code helps...
+*/
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    background: #aaa;
+
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: green;
+}
+
+section {
+    margin: 100px 100px;
+}
+
+/* With starter code you may only consider this part
+*/
+.highlighted {
+    color: red;
+}
+
+.active-class {
+    background-color: antiquewhite;
+}
